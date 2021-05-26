@@ -3,7 +3,7 @@
 '@theguild/monaco-graphql': patch
 '@theguild/codemirror-graphql': patch
 '@theguild/graphiql': patch
-'@graphiql/toolkit': patch
+'@theguild/graphiql-toolkit': patch
 '@theguild/graphql-language-service-interface': patch
 '@theguild/graphql-language-service-parser': patch
 '@theguild/graphql-language-service-types': patch
