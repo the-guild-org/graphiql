@@ -1,5 +1,11 @@
 # graphql-language-service-types
 
+## 1.10.0
+
+### Minor Changes
+
+- [`67b87838`](https://github.com/the-guild-org/graphiql/commit/67b87838e092653eef2c4936b097e5f9606221e5) Thanks [@dotansimha](https://github.com/dotansimha)! - Fix release flow
+
 ## 1.9.0
 
 ### Minor Changes
