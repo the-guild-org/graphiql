@@ -22,14 +22,14 @@ import {
   FragmentInfo,
   Uri,
   ObjectTypeInfo,
-} from 'graphql-language-service-types';
+} from '@theguild/graphql-language-service-types';
 
 import {
   locToRange,
   offsetToPosition,
   Range,
   Position,
-} from 'graphql-language-service-utils';
+} from '@theguild/graphql-language-service-utils';
 
 export type DefinitionQueryResult = {
   queryRange: Range[];

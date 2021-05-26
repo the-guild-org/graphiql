@@ -19,7 +19,7 @@ import {
   DIAGNOSTIC_SEVERITY,
   SeverityEnum,
   SEVERITY,
-} from 'graphql-language-service';
+} from '@theguild/graphql-language-service';
 
 export class Logger implements VSCodeLogger {
   _logFilePath: string;

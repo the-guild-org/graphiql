@@ -1,6 +1,6 @@
 import { extname } from 'path';
-import type { CachedContent } from 'graphql-language-service';
-import { Range, Position } from 'graphql-language-service-utils';
+import type { CachedContent } from '@theguild/graphql-language-service';
+import { Range, Position } from '@theguild/graphql-language-service-utils';
 
 import { findGraphQLTags, DEFAULT_TAGS } from './findGraphQLTags';
 

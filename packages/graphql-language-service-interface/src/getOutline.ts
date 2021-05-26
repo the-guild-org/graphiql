@@ -12,7 +12,7 @@ import {
   TextToken,
   TokenKind,
   IPosition,
-} from 'graphql-language-service-types';
+} from '@theguild/graphql-language-service-types';
 
 import {
   Kind,
@@ -35,7 +35,7 @@ import {
   FieldDefinitionNode,
   EnumValueDefinitionNode,
 } from 'graphql';
-import { offsetToPosition } from 'graphql-language-service-utils';
+import { offsetToPosition } from '@theguild/graphql-language-service-utils';
 
 const { INLINE_FRAGMENT } = Kind;
 

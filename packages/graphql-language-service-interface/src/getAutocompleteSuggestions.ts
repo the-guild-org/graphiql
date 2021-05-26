@@ -28,7 +28,7 @@ import {
   CompletionItem,
   AllTypeInfo,
   IPosition,
-} from 'graphql-language-service-types';
+} from '@theguild/graphql-language-service-types';
 
 import {
   GraphQLBoolean,
@@ -57,7 +57,7 @@ import {
   RuleKinds,
   RuleKind,
   _RuleKinds,
-} from 'graphql-language-service-parser';
+} from '@theguild/graphql-language-service-parser';
 
 import {
   forEachState,

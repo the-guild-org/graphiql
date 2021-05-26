@@ -16,7 +16,7 @@ import type {
   FragmentInfo,
   ObjectTypeInfo,
   Uri,
-} from 'graphql-language-service';
+} from '@theguild/graphql-language-service';
 
 import * as fs from 'fs';
 import { GraphQLSchema, Kind, extendSchema, parse, visit } from 'graphql';

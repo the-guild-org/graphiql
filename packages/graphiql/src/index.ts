@@ -26,7 +26,7 @@ export type {
   FetcherReturnType,
   SyncFetcherResult,
   Observable,
-} from '@graphiql/toolkit';
+} from '@theguild/graphiql-toolkit';
 /**
  * Components
  */

@@ -7,7 +7,7 @@
  *
  */
 
-import { CompletionItem } from 'graphql-language-service-types';
+import { CompletionItem } from '@theguild/graphql-language-service-types';
 
 import fs from 'fs';
 import {
@@ -16,7 +16,7 @@ import {
   GraphQLSchema,
   parse,
 } from 'graphql';
-import { Position } from 'graphql-language-service-utils';
+import { Position } from '@theguild/graphql-language-service-utils';
 import path from 'path';
 
 import { getAutocompleteSuggestions } from '../getAutocompleteSuggestions';

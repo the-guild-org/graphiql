@@ -1,5 +1,5 @@
 {
-  "name": "graphql-language-service-parser",
+  "name": "@theguild/graphql-language-service-parser",
   "version": "1.9.1",
   "description": "An online parser for GraphQL for use in syntax-highlighters and code intelligence tools",
   "contributors": [
@@ -37,7 +37,7 @@
     "vscode-languageserver-types": "^3.15.1"
   },
   "dependencies": {
-    "graphql-language-service-types": "^1.8.0"
+    "@theguild/graphql-language-service-types": "^1.8.0"
   },
   "scripts": {
     "benchmark": "ts-node benchmark/index.ts"

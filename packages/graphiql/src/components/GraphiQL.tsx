@@ -25,7 +25,7 @@ import {
   DocumentNode,
 } from 'graphql';
 import copyToClipboard from 'copy-to-clipboard';
-import { getFragmentDependenciesForAST } from 'graphql-language-service-utils';
+import { getFragmentDependenciesForAST } from '@theguild/graphql-language-service-utils';
 
 import { ExecuteButton } from './ExecuteButton';
 import { ImagePreview } from './ImagePreview';
@@ -63,7 +63,7 @@ import type {
   Observable,
   Unsubscribable,
   FetcherResultPayload,
-} from '@graphiql/toolkit';
+} from '@theguild/graphiql-toolkit';
 
 const DEFAULT_DOC_EXPLORER_WIDTH = 350;
 

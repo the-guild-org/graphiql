@@ -14,7 +14,7 @@ import {
   isIgnored,
   onlineParser,
   State,
-} from 'graphql-language-service-parser';
+} from '@theguild/graphql-language-service-parser';
 
 /**
  * The GraphQL mode is defined as a tokenizer along with a list of rules, each

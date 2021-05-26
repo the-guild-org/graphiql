@@ -8,7 +8,7 @@
  */
 
 import { Location } from 'graphql/language';
-import { IRange, IPosition } from 'graphql-language-service-types';
+import { IRange, IPosition } from '@theguild/graphql-language-service-types';
 
 export class Range implements IRange {
   start: IPosition;

@@ -17,7 +17,7 @@ import {
   p,
   State,
   Token,
-} from 'graphql-language-service-parser';
+} from '@theguild/graphql-language-service-parser';
 
 /**
  * This mode defines JSON, but provides a data-laden parser state to enable

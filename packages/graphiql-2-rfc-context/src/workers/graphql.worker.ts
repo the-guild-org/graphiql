@@ -10,9 +10,8 @@ import type { worker as WorkerNamespace } from 'monaco-editor';
 // @ts-ignore
 import * as worker from 'monaco-editor/esm/vs/editor/editor.worker';
 
-import type { ICreateData } from 'monaco-graphql/esm/typings';
-
-import { GraphQLWorker } from 'monaco-graphql/esm/GraphQLWorker';
+import type { ICreateData } from '@theguild/monaco-graphql/esm/typings';
+import { GraphQLWorker } from '@theguild/monaco-graphql/esm/GraphQLWorker';
 
 self.onmessage = () => {
   try {

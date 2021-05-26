@@ -12,8 +12,8 @@ import type { Location } from 'graphql/language';
 
 import type {
   IRange,
-  IPosition ,
-} from 'graphql-language-service-types';
+  IPosition,
+} from '@theguild/graphql-language-service-types';
 
 declare export function getASTNodeAtPosition(): void;
 
@@ -30,4 +30,3 @@ declare export class Range implements IRange {
   constructor(start: IPosition, end: IPosition): IRange;
   containsPosition: (position: IPosition) => boolean;
 }
-

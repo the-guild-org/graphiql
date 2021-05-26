@@ -8,7 +8,7 @@
  */
 import { tmpdir } from 'os';
 import { SymbolKind } from 'vscode-languageserver';
-import { Position, Range } from 'graphql-language-service-utils';
+import { Position, Range } from '@theguild/graphql-language-service-utils';
 
 import { MessageProcessor } from '../MessageProcessor';
 import { parseDocument } from '../parseDocument';
@@ -19,7 +19,10 @@ import { GraphQLCache } from '../GraphQLCache';
 
 import { loadConfig } from 'graphql-config';
 
-import type { DefinitionQueryResult, Outline } from 'graphql-language-service';
+import type {
+  DefinitionQueryResult,
+  Outline,
+} from '@theguild/graphql-language-service';
 
 import { Logger } from '../Logger';
 import { pathToFileURL } from 'url';

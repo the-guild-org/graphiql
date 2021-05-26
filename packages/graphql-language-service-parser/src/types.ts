@@ -1,5 +1,5 @@
 import { Kind } from 'graphql';
-import { Maybe } from 'graphql-language-service-types';
+import { Maybe } from '@theguild/graphql-language-service-types';
 import CharacterStream from './CharacterStream';
 
 export type ContextToken = {

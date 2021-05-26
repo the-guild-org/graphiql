@@ -6,7 +6,7 @@
  */
 import 'regenerator-runtime/runtime';
 
-import { createGraphiQLFetcher } from '@graphiql/toolkit';
+import { createGraphiQLFetcher } from '@theguild/graphiql-toolkit';
 
 import './css/app.css';
 import './css/codemirror.css';

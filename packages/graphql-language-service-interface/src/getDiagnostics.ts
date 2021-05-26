@@ -21,17 +21,20 @@ import {
 
 import { findDeprecatedUsages, parse } from 'graphql';
 
-import { CharacterStream, onlineParser } from 'graphql-language-service-parser';
+import {
+  CharacterStream,
+  onlineParser,
+} from '@theguild/graphql-language-service-parser';
 
 import {
   Range,
   validateWithCustomRules,
   Position,
-} from 'graphql-language-service-utils';
+} from '@theguild/graphql-language-service-utils';
 
 import { DiagnosticSeverity, Diagnostic } from 'vscode-languageserver-types';
 
-import { IRange } from 'graphql-language-service-types';
+import { IRange } from '@theguild/graphql-language-service-types';
 
 // this doesn't work without the 'as', kinda goofy
 

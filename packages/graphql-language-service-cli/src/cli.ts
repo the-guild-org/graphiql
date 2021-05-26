@@ -10,7 +10,7 @@
 import yargs from 'yargs';
 import client from './client';
 
-import { Logger, startServer } from 'graphql-language-service-server';
+import { Logger, startServer } from '@theguild/graphql-language-service-server';
 
 const { argv } = yargs
   .usage(

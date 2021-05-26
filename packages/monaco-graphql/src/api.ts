@@ -5,7 +5,10 @@
  *  LICENSE file in the root directory of this source tree.
  */
 
-import { SchemaConfig, SchemaResponse } from 'graphql-language-service';
+import {
+  SchemaConfig,
+  SchemaResponse,
+} from '@theguild/graphql-language-service';
 
 import type { FormattingOptions, ModeConfiguration } from './typings';
 import type { WorkerAccessor } from './languageFeatures';

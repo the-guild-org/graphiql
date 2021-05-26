@@ -9,7 +9,9 @@
 export * from './types';
 export * from './schemaLoader';
 export * from './LanguageService';
-export * from 'graphql-language-service-interface';
-export * from 'graphql-language-service-parser';
-export * from 'graphql-language-service-types';
-export * from 'graphql-language-service-utils';
+export * from '@theguild/graphql-language-service-interface';
+// eslint-disable-next-line import/no-extraneous-dependencies
+export * from '@theguild/graphql-language-service-parser';
+export * from '@theguild/graphql-language-service-types';
+// eslint-disable-next-line import/no-extraneous-dependencies
+export * from '@theguild/graphql-language-service-utils';

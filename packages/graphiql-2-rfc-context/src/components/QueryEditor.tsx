@@ -48,7 +48,7 @@ export function QueryEditor(props: QueryEditorProps) {
   // }
 
   React.useEffect(() => {
-    require('monaco-graphql/esm/monaco.contribution');
+    require('@theguild/monaco-graphql/esm/monaco.contribution');
 
     // Lazily require to ensure requiring GraphiQL outside of a Browser context
     // does not produce an error.

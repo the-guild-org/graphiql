@@ -1,7 +1,7 @@
 import type {
   SchemaConfig as SchemaConfiguration,
   GraphQLLanguageConfig,
-} from 'graphql-language-service';
+} from '@theguild/graphql-language-service';
 
 import type { Options as PrettierConfig } from 'prettier';
 

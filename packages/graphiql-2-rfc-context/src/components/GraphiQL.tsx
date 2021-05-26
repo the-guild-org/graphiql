@@ -8,7 +8,7 @@
 import React, { ComponentType, PropsWithChildren } from 'react';
 import { GraphQLSchema, OperationDefinitionNode, GraphQLType } from 'graphql';
 
-import type { SchemaConfig } from 'graphql-language-service';
+import type { SchemaConfig } from '@theguild/graphql-language-service';
 
 import { ExecuteButton } from './ExecuteButton';
 import { ToolbarButton } from './ToolbarButton';

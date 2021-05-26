@@ -43,7 +43,7 @@ We also provide a CLI interface to this server, see [`graphql-language-service-c
 Initialize the GraphQL Language Server with the `startServer` function:
 
 ```ts
-import { startServer } from 'graphql-language-service-server';
+import { startServer } from '@theguild/graphql-language-service'-server';
 
 await startServer({
   method: 'node',

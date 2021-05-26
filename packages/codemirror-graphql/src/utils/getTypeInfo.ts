@@ -24,8 +24,8 @@ import {
   GraphQLEnumValue,
   GraphQLInputFieldMap,
 } from 'graphql';
-import { State } from 'graphql-language-service-parser';
-import { Maybe } from 'graphql-language-service-types';
+import { State } from '@theguild/graphql-language-service-parser';
+import { Maybe } from '@theguild/graphql-language-service-types';
 import {
   SchemaMetaFieldDef,
   TypeMetaFieldDef,

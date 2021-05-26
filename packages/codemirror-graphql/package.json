@@ -1,5 +1,5 @@
 {
-  "name": "codemirror-graphql",
+  "name": "@theguild/codemirror-graphql",
   "version": "1.0.1",
   "description": "GraphQL mode and helpers for CodeMirror.",
   "contributors": [
@@ -43,8 +43,8 @@
     "graphql": ">= v14.5.0 <= 15.5.0"
   },
   "dependencies": {
-    "graphql-language-service-interface": "^2.8.2",
-    "graphql-language-service-parser": "^1.9.0"
+    "@theguild/graphql-language-service-interface": "^2.8.2",
+    "@theguild/graphql-language-service-parser": "^1.9.0"
   },
   "devDependencies": {
     "codemirror": "^5.54.0",

@@ -10,7 +10,7 @@
 import CodeMirror from 'codemirror';
 import 'codemirror/addon/lint/lint';
 import { parse } from 'graphql';
-import { Maybe } from 'graphql-language-service-types';
+import { Maybe } from '@theguild/graphql-language-service-types';
 import collectVariables from '../../utils/collectVariables';
 import { TestSchema } from '../../__tests__/testSchema';
 import '../lint';

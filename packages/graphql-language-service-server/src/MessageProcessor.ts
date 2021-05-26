@@ -21,7 +21,7 @@ import {
   Range,
   Position,
   IPosition,
-} from 'graphql-language-service';
+} from '@theguild/graphql-language-service';
 
 import type {
   CompletionParams,
@@ -129,7 +129,10 @@ export class MessageProcessor {
       return p(text, uri, fileExtensions, graphqlFileExtensions);
     };
     this._tmpDir = tmpDir || tmpdir();
-    this._tmpDirBase = path.join(this._tmpDir, 'graphql-language-service');
+    this._tmpDirBase = path.join(
+      this._tmpDir,
+      '@theguild/graphql-language-service',
+    );
     this._tmpUriBase = pathToFileURL(this._tmpDirBase).toString();
     this._loadConfigOptions = loadConfigOptions;
     if (

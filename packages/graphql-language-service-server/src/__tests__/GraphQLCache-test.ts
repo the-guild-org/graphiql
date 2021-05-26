@@ -21,7 +21,10 @@ import {
 } from 'graphql';
 import { GraphQLCache, getGraphQLCache } from '../GraphQLCache';
 import { parseDocument } from '../parseDocument';
-import type { FragmentInfo, ObjectTypeInfo } from 'graphql-language-service';
+import type {
+  FragmentInfo,
+  ObjectTypeInfo,
+} from '@theguild/graphql-language-service';
 
 function wihtoutASTNode(definition: any) {
   const result = { ...definition };

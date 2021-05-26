@@ -10,7 +10,7 @@ import React, { useCallback } from 'react';
 import { GraphQLSchema } from 'graphql';
 import { SchemaConfig, Fetcher } from '../../types';
 
-import { defaultSchemaBuilder } from 'graphql-language-service';
+import { defaultSchemaBuilder } from '@theguild/graphql-language-service';
 
 import {
   SchemaAction,
@@ -127,7 +127,7 @@ export function SchemaProvider({
     dispatch(schemaRequestedAction());
     try {
       const { api: GraphQLAPI } = await import(
-        'monaco-graphql/esm/monaco.contribution'
+        '@theguild/monaco-graphql/esm/monaco.contribution'
       );
 
       // @ts-ignore

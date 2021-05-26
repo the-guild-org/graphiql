@@ -10,9 +10,9 @@ import type {
   IPosition as GraphQLPosition,
   Diagnostic,
   CompletionItem as GraphQLCompletionItem,
-} from 'graphql-language-service';
+} from '@theguild/graphql-language-service';
 
-import { Position } from 'graphql-language-service';
+import { Position } from '@theguild/graphql-language-service';
 
 // @ts-ignore
 export type MonacoCompletionItem = monaco.languages.CompletionItem & {

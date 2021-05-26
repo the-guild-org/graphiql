@@ -12,12 +12,12 @@ import {
   FragmentDefinitionNode,
   visit,
 } from 'graphql';
-import type { IPosition } from 'graphql-language-service-types';
+import type { IPosition } from '@theguild/graphql-language-service-types';
 import {
   getAutocompleteSuggestions,
   getDiagnostics,
   getHoverInformation,
-} from 'graphql-language-service-interface';
+} from '@theguild/graphql-language-service-interface';
 
 import {
   defaultSchemaLoader,

@@ -9,12 +9,12 @@ import { FormattingOptions, ICreateData } from './typings';
 
 import type { worker, editor, Position, IRange } from 'monaco-editor';
 
-import { getRange, LanguageService } from 'graphql-language-service';
+import { getRange, LanguageService } from '@theguild/graphql-language-service';
 
 import type {
   SchemaResponse,
   CompletionItem as GraphQLCompletionItem,
-} from 'graphql-language-service';
+} from '@theguild/graphql-language-service';
 
 import {
   toGraphQLPosition,
