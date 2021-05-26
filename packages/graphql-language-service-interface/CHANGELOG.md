@@ -1,5 +1,20 @@
 # graphql-language-service-interface
 
+## 2.9.0
+
+### Minor Changes
+
+- [`d515c03f`](https://github.com/the-guild-org/graphiql/commit/d515c03fffc46da64f9bed4919588ba2ec025eff) Thanks [@dotansimha](https://github.com/dotansimha)! - Fix releases
+
+### Patch Changes
+
+- [`5b8a057d`](https://github.com/the-guild-org/graphiql/commit/5b8a057dd64ebecc391be32176a2403bb9d9ff92) [#1838](https://github.com/graphql/graphiql/pull/1838) Thanks [@acao](https://github.com/acao)! - Set all cross-runtime build targets to es6
+
+- Updated dependencies [[`d515c03f`](https://github.com/the-guild-org/graphiql/commit/d515c03fffc46da64f9bed4919588ba2ec025eff), [`5b8a057d`](https://github.com/the-guild-org/graphiql/commit/5b8a057dd64ebecc391be32176a2403bb9d9ff92)]:
+  - @theguild/graphql-language-service-parser@1.10.0
+  - @theguild/graphql-language-service-types@1.9.0
+  - @theguild/graphql-language-service-utils@2.6.0
+
 ## 2.8.3
 
 ### Patch Changes

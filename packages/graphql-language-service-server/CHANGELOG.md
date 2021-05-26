@@ -1,5 +1,17 @@
 # graphql-language-service-server
 
+## 2.7.0
+
+### Minor Changes
+
+- [`d515c03f`](https://github.com/the-guild-org/graphiql/commit/d515c03fffc46da64f9bed4919588ba2ec025eff) Thanks [@dotansimha](https://github.com/dotansimha)! - Fix releases
+
+### Patch Changes
+
+- Updated dependencies [[`d515c03f`](https://github.com/the-guild-org/graphiql/commit/d515c03fffc46da64f9bed4919588ba2ec025eff), [`5b8a057d`](https://github.com/the-guild-org/graphiql/commit/5b8a057dd64ebecc391be32176a2403bb9d9ff92)]:
+  - @theguild/graphql-language-service@3.2.0
+  - @theguild/graphql-language-service-utils@2.6.0
+
 ## 2.6.3
 
 ### Patch Changes
