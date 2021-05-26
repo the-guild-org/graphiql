@@ -1,6 +1,6 @@
 {
   "name": "@theguild/graphiql",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "description": "An graphical interactive in-browser GraphQL IDE.",
   "contributors": [
     "Hyohyeon Jeong <asiandrummer@fb.com>",
@@ -43,13 +43,13 @@
     "webpack": "webpack --config resources/webpack.config.js"
   },
   "dependencies": {
-    "@theguild/graphiql-toolkit": "^0.3.0",
+    "@theguild/graphiql-toolkit": "^0.4.0",
     "codemirror": "^5.54.0",
-    "@theguild/codemirror-graphql": "^1.1.0",
+    "@theguild/codemirror-graphql": "^1.2.0",
     "copy-to-clipboard": "^3.2.0",
     "dset": "^3.1.0",
     "entities": "^2.0.0",
-    "@theguild/graphql-language-service": "^3.2.0",
+    "@theguild/graphql-language-service": "^3.3.0",
     "markdown-it": "^10.0.0"
   },
   "peerDependencies": {

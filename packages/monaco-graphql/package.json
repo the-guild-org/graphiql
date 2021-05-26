@@ -1,7 +1,7 @@
 {
   "name": "@theguild/monaco-graphql",
   "description": "full service, official monaco mode for GraphQL",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "license": "MIT",
   "main": "dist/monaco.contribution.js",
   "module": "esm/monaco.contribution.js",
@@ -22,8 +22,8 @@
     "src"
   ],
   "dependencies": {
-    "@theguild/graphql-language-service": "^3.2.0",
-    "@theguild/graphql-language-service-utils": "^2.6.0"
+    "@theguild/graphql-language-service": "^3.3.0",
+    "@theguild/graphql-language-service-utils": "^2.7.0"
   },
   "devDependencies": {
     "graphql": "experimental-stream-defer",

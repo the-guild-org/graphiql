@@ -1,5 +1,18 @@
 # Change Log
 
+## 1.6.0
+
+### Minor Changes
+
+- [`67b87838`](https://github.com/the-guild-org/graphiql/commit/67b87838e092653eef2c4936b097e5f9606221e5) Thanks [@dotansimha](https://github.com/dotansimha)! - Fix release flow
+
+### Patch Changes
+
+- Updated dependencies [[`67b87838`](https://github.com/the-guild-org/graphiql/commit/67b87838e092653eef2c4936b097e5f9606221e5)]:
+  - @theguild/codemirror-graphql@1.2.0
+  - @theguild/graphiql-toolkit@0.4.0
+  - @theguild/graphql-language-service@3.3.0
+
 ## 1.5.0
 
 ### Minor Changes
